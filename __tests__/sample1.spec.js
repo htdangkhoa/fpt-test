@@ -8,7 +8,7 @@ describe('sample 1', () => {
     FFRFFFRRLF
     `;
 
-    const result = execute(input);
+    const { result } = execute(input);
 
     expect(result).toBe(`4 3 S`);
   });
@@ -20,7 +20,7 @@ describe('sample 1', () => {
     LFFRFFFFRFFLF
     `;
 
-    const result = execute(input);
+    const { result } = execute(input);
 
     expect(result).toBe(`5 3 E`);
   });
@@ -32,7 +32,7 @@ describe('sample 1', () => {
     LFLFLFFRFFRFRFLFFFFRFFFFFRFRF
     `;
 
-    const result = execute(input);
+    const { result } = execute(input);
 
     expect(result).toBe(`1 1 E`);
   });

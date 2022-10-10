@@ -6,9 +6,11 @@
   "author": "Khoa Huynh Tran Dang <khoa.htd@amanotes.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --forceExit --detectOpenHandles"
+    "test": "jest --forceExit --detectOpenHandles",
+    "pretty": "prettier --write lib/**/* __tests__/**/*"
   },
   "devDependencies": {
-    "jest": "^29.1.2"
+    "jest": "^29.1.2",
+    "prettier": "^2.7.1"
   }
 }
